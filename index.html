@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="個人學術論文閱讀清單與簡報典藏。">
+  <title>My Paper Reading List</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <script type="module" src="./scripts/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="./index.html" lang="en">My Paper Reading List</a>
+      <nav aria-label="主要導覽">
+        <a href="#reading-list">閱讀清單</a>
+        <a href="#paper-library">簡報典藏</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="welcome" aria-labelledby="welcome-title">
+      <div>
+        <p class="eyebrow" lang="en">A PERSONAL RESEARCH JOURNAL</p>
+        <h1 id="welcome-title" lang="en">My Paper<br>Reading List<span class="title-dot">.</span></h1>
+        <p class="hero-description">從想讀的問題出發，記下閱讀進度，把讀完的研究整理成可以回顧的簡報。</p>
+        <a class="button" href="#reading-list">瀏覽閱讀清單 <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 360 250" fill="none">
+          <circle cx="193" cy="124" r="98" fill="#E4EBEE"/>
+          <circle cx="193" cy="124" r="112" stroke="#7C95A8" stroke-dasharray="2 7"/>
+          <g transform="rotate(-12 161 132)">
+            <rect x="99" y="50" width="123" height="164" rx="6" fill="#FAF8F3" stroke="#7C95A8"/>
+            <path d="M117 80H193M117 93H181M117 108H196M117 189H182" stroke="#7C95A8"/>
+          </g>
+          <g transform="rotate(11 209 132)">
+            <rect x="149" y="43" width="121" height="169" rx="6" fill="#FFF" stroke="#506F84"/>
+            <path d="M168 72H222M168 85H210" stroke="#506F84" stroke-width="2"/>
+            <rect x="168" y="104" width="83" height="52" rx="2" fill="#E4EBEE"/>
+            <path d="M181 119H239M181 130H229M181 141H218" stroke="#506F84" stroke-width="1.6"/>
+            <path d="M168 172H250M168 185H235" stroke="#7C95A8"/>
+          </g>
+          <path d="M76 120V140M66 130H86M293 56V72M285 64H301" stroke="#506F84"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="stats-section" aria-labelledby="stats-title">
+      <h2 id="stats-title" class="small-heading">閱讀統計</h2>
+      <dl class="stats">
+        <div><dt>想讀</dt><dd id="count-want-to-read">—</dd></div>
+        <div><dt>閱讀中</dt><dd id="count-reading">—</dd></div>
+        <div><dt>已完成</dt><dd id="count-completed">—</dd></div>
+      </dl>
+    </section>
+
+    <noscript><p class="notice">請啟用 JavaScript 以讀取論文資料。</p></noscript>
+    <p id="load-error" class="notice" role="alert" hidden></p>
+
+    <section id="reading-list" class="collection" aria-labelledby="reading-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" lang="en">01 / READING LIST</p>
+          <h2 id="reading-title">閱讀清單</h2>
+        </div>
+        <a class="jump-link" href="#filters">搜尋與篩選 <span aria-hidden="true">↓</span></a>
+      </div>
+      <div id="reading-results" class="card-grid"></div>
+      <p id="reading-message" class="notice">正在讀取閱讀清單…</p>
+    </section>
+
+    <section id="paper-library" class="collection" aria-labelledby="library-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" lang="en">02 / PAPER LIBRARY</p>
+          <h2 id="library-title">論文簡報典藏</h2>
+        </div>
+        <a class="jump-link" href="#filters">搜尋與篩選 <span aria-hidden="true">↓</span></a>
+      </div>
+      <div id="library-results" class="card-grid"></div>
+      <p id="library-message" class="notice">正在讀取簡報典藏…</p>
+    </section>
+
+    <section id="filters" class="collection" aria-labelledby="filters-title">
+      <p class="eyebrow" lang="en">03 / FIND A PAPER</p>
+      <h2 id="filters-title">搜尋與篩選</h2>
+      <form id="filter-form" class="filter-panel" role="search" aria-label="搜尋與篩選論文">
+        <fieldset id="filter-fields" disabled>
+          <legend class="sr-only">搜尋條件與排序</legend>
+          <label class="search-field">搜尋論文
+            <input id="query" type="search" placeholder="標題、作者、分類或關鍵字">
+          </label>
+          <label>研究分類
+            <select id="category"><option value="">所有分類</option></select>
+          </label>
+          <label>閱讀狀態
+            <select id="status">
+              <option value="">所有狀態</option>
+              <option value="want-to-read">想讀</option>
+              <option value="reading">閱讀中</option>
+              <option value="completed">已完成</option>
+            </select>
+          </label>
+          <label>排序
+            <select id="sort">
+              <option value="added">最近加入</option>
+              <option value="year">發表年份（由新到舊）</option>
+              <option value="title">標題（升冪）</option>
+            </select>
+          </label>
+        </fieldset>
+        <div class="filter-actions">
+          <p id="match-count" class="filter-count" role="status"></p>
+          <div class="filter-links">
+            <a href="#reading-list">查看清單</a>
+            <a href="#paper-library">查看典藏</a>
+          </div>
+          <button id="reset-filters" class="button secondary" type="reset" disabled>重設條件</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><span lang="en">My Paper Reading List</span><span>個人學術閱讀誌</span></div>
+  </footer>
+</body>
+</html>

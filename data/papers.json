@@ -1,0 +1,119 @@
+[
+  {
+    "id": "quigley-hr-hrv-guidelines-2024",
+    "title": "Publication guidelines for human heart rate and heart rate variability studies in psychophysiology—Part 1: Physiological underpinnings and foundations of measurement",
+    "authors": [
+      "Karen S. Quigley",
+      "Peter J. Gianaros",
+      "Greg J. Norman",
+      "J. Richard Jennings",
+      "Gary G. Berntson",
+      "Eco J. C. de Geus"
+    ],
+    "year": 2024,
+    "category": "心理生理學",
+    "keywords": [
+      "心率",
+      "心率變異性",
+      "呼吸性竇性心律不整",
+      "量測方法"
+    ],
+    "url": "https://doi.org/10.1111/psyp.14604",
+    "status": "completed",
+    "presentationStatus": "published",
+    "addedAt": "2026-11-11",
+    "summary": "這份委員會報告回顧人類心率（heart rate, HR）與心率變異性（heart rate variability, HRV）的生理基礎，並提出心理生理學研究的量測與報告建議。作者比較心電圖（electrocardiogram, ECG）與光體積描記（photoplethysmography, PPG）在實驗室、日常監測及腦影像情境中的適用性，並說明如何辨識心搏、處理訊號雜訊及選擇指標。解讀呼吸性竇性心律不整（respiratory sinus arrhythmia, RSA）時，須考量呼吸速率與深度，而低頻 HRV 與低頻／高頻功率比值（LF/HF）都不足以單獨判定心臟交感神經活動。報告最後以四份檢核表列出研究設計、訊號處理、日常監測與參與者特徵應交代的資訊，讓讀者能檢視推論並重現分析。",
+    "slides": [
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-01.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-02.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-03.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-04.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-05.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-06.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-07.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-08.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-09.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-10.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-11.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-12.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-13.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-14.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-15.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-16.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-17.webp",
+      "assets/papers/quigley-hr-hrv-guidelines-2024/slides/slide-18.webp"
+    ]
+  },
+  {
+    "id": "spangler-resting-hr-risk-behavior-2026",
+    "title": "Nonlinear Relations Between Resting Heart Rate Measures and Health Risk Behavior in Emerging Adulthood",
+    "authors": [
+      "Derek P. Spangler",
+      "Nina Lauharatanahirun"
+    ],
+    "year": 2026,
+    "category": "心理生理學",
+    "keywords": [
+      "成年初顯期",
+      "靜息心率",
+      "心率變異性",
+      "健康風險行為"
+    ],
+    "url": "https://doi.org/10.1002/jad.70175",
+    "status": "completed",
+    "presentationStatus": "published",
+    "addedAt": "2026-11-11",
+    "summary": "本研究以 89 名 18 至 29 歲的年輕成人為樣本，檢驗成年初顯期（emerging adulthood）的靜息心臟指標與健康風險行為傾向（health risk behavior propensity）是否呈非線性關聯。研究者從三段各兩分鐘的靜息心電圖估計平均心率（heart rate, HR）與取自然對數的高頻心率變異性（high-frequency heart rate variability, lnHF-HRV），並以領域特定風險承擔量表（DOSPERT）評估自陳傾向。靜息心率與健康／安全風險傾向呈 U 形關聯，而 lnHF-HRV 在健康／安全與休閒兩個領域皆呈 U 形，指標位於中間水準時，自陳風險傾向較低。這三項關聯在調整性別、身體質量指數、量測時段及另一心臟指標後仍達統計顯著，作者提出的低喚醒與自我調節機制仍待直接檢驗。",
+    "slides": [
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-01.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-02.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-03.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-04.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-05.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-06.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-07.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-08.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-09.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-10.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-11.webp",
+      "assets/papers/spangler-resting-hr-risk-behavior-2026/slides/slide-12.webp"
+    ]
+  },
+  {
+    "id": "piejka-social-functioning-hrv-2024",
+    "title": "The association between perceived social functioning and heart rate variability is mediated by subclinical depressive symptomatology and moderated by gender",
+    "authors": [
+      "Aleksandra Piejka",
+      "Julian F. Thayer",
+      "Łukasz Okruszek"
+    ],
+    "year": 2024,
+    "category": "心理生理學",
+    "keywords": [
+      "孤獨感",
+      "知覺社會支持",
+      "心率變異性",
+      "憂鬱症狀",
+      "性別差異"
+    ],
+    "url": "https://doi.org/10.1111/psyp.14622",
+    "status": "completed",
+    "presentationStatus": "published",
+    "addedAt": "2026-11-11",
+    "summary": "這項探索性橫斷研究分析 325 名 18 至 35 歲成人的資料，以孤獨感（loneliness）和知覺社會支持（perceived social support）建立知覺社交功能指數，並從 6 分鐘靜息心電圖估計心率變異性（heart rate variability, HRV）。男性組的靜息 HRV 與孤獨感及憂鬱症狀呈負相關，與知覺社會支持呈正相關，而女性組的 HRV 與憂鬱症狀及一般心理健康分數呈二次關聯（quadratic association）。以次臨床憂鬱症狀（subclinical depressive symptoms）為中介時，社交功能與 HRV 的間接關聯在男性組達統計顯著，在女性組未達顯著，調節式中介指數的信賴區間也排除零。橫斷資料支持這項統計關聯，社交功能、憂鬱症狀與 HRV 的時間先後及因果方向仍待縱貫研究釐清。",
+    "slides": [
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-01.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-02.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-03.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-04.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-05.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-06.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-07.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-08.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-09.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-10.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-11.webp",
+      "assets/papers/piejka-social-functioning-hrv-2024/slides/slide-12.webp"
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>論文詳情 | My Paper Reading List</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <script type="module" src="./scripts/paper.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="./index.html" lang="en">My Paper Reading List</a>
+      <nav aria-label="主要導覽">
+        <a href="./index.html#reading-list">閱讀清單</a>
+        <a href="./index.html#paper-library">簡報典藏</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap detail">
+    <a class="jump-link" href="./index.html">← 返回首頁</a>
+    <p class="eyebrow" lang="en">PAPER RECORD</p>
+    <h1 id="detail-title">論文詳情</h1>
+    <p id="detail-message" class="notice" role="status">正在讀取論文資料…</p>
+    <noscript><p class="notice">請啟用 JavaScript 以讀取論文資料。</p></noscript>
+    <article id="paper-content" hidden aria-labelledby="detail-title">
+      <dl class="bibliography">
+        <div><dt>作者</dt><dd id="paper-authors"></dd></div>
+        <div><dt>年份</dt><dd id="paper-year"></dd></div>
+        <div><dt>研究分類</dt><dd id="paper-category"></dd></div>
+        <div><dt>閱讀狀態</dt><dd id="paper-status"></dd></div>
+      </dl>
+      <a id="paper-source" class="button">閱讀原始文獻 <span aria-hidden="true">↗</span></a>
+      <p id="unpublished-note" class="notice" hidden>摘要與簡報尚未發布。</p>
+      <div id="published-content" hidden>
+        <section class="summary-panel" aria-labelledby="summary-title">
+          <h2 id="summary-title">論文摘要</h2>
+          <p id="paper-summary"></p>
+        </section>
+        <section id="presentation" class="presentation" aria-labelledby="presentation-title">
+          <h2 id="presentation-title">論文簡報</h2>
+          <figure class="player">
+            <div id="slide-stage" class="slide-stage">
+              <p id="slide-message" role="status" hidden></p>
+            </div>
+            <figcaption class="player-controls">
+              <button id="previous-slide" class="button secondary" type="button">← 上一頁</button>
+              <span id="slide-count" aria-live="polite"></span>
+              <button id="next-slide" class="button secondary" type="button">下一頁 →</button>
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><span lang="en">My Paper Reading List</span><span>個人學術閱讀誌</span></div>
+  </footer>
+</body>
+</html>
